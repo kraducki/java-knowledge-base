@@ -13,5 +13,13 @@ public class GenericsExample {
 
         // The most popular usage of generics is Collection framework
         ArrayList<String> arrayList = new ArrayList<>();
+
+        // Use method as well
+        shout("Boo!");
+    }
+
+    // There can also be generic methods
+    private static <T> void shout (T thingToShout) {
+        System.out.println(thingToShout);
     }
 }

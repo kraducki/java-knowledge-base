@@ -2,6 +2,7 @@ package generics;
 
 import superKeyword.Animal;
 
+// Generis offer ability to have one class, which is flexible for many different types
 public class Printer <T>{
 
     T thingToPrint;
